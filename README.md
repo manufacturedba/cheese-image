@@ -1,2 +1,2 @@
 # cheese-image
-Polymer Cheese Image.  Inspired by https://github.com/passy/x-pokemon
+Polymer Cheese Image Github Site.  Inspired by https://github.com/passy/x-pokemon

@@ -1,0 +1,35 @@
+{
+  "name": "cheese-image",
+  "homepage": "https://github.com/manufacturedba/cheese-image",
+  "authors": [
+    "Roberto Rodriguez <manufacturedba@gmail.com>"
+  ],
+  "description": "A Polymer element for displaying cheese images",
+  "main": "cheese-image.html",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "cheese"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.1.3"
+  },
+  "_release": "15fa34ceb5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "15fa34ceb54f105686817a825eee890a5e1ca832"
+  },
+  "_source": "git://github.com/manufacturedba/cheese-image.git",
+  "_target": "*",
+  "_originalSource": "cheese-image",
+  "_direct": true
+}

@@ -1,0 +1,35 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="cheese-image">
+  <style>
+    img {
+      height: 250px;
+      width: 250px
+    }
+  </style>
+
+  <template>
+    <img class="cheese" alt="{{name}}" src$="{{_getSrc(name)}}" />
+  </template>
+
+</dom-module>
+
+<script>
+
+(function() {
+
+  Polymer({
+    is: 'cheese-image',
+    properties: {
+      name: {
+        type: String
+      }
+    },
+    _getSrc: function(name) {
+      return 'http://www.cheese.com/media/img/cheese/' + name.charAt(0).toUpperCase() + name.slice(1) + '.jpg';
+    }
+  });
+
+})();
+
+</script>
